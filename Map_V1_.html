@@ -53,6 +53,7 @@ function onMapClick(e) {
 map.on('click', onMapClick);
 
 var marker = L.marker([31.5017, 34.4668]).addTo(map);
+marker.bindPopup("<b>Journalist_Name</b><br>Date").openPopup();
 
     </script>
 
